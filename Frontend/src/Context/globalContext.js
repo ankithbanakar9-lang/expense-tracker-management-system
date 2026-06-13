@@ -2,7 +2,7 @@ import React from "react";
 import {useState, useContext} from "react";
 import axios from "axios";
 import Expenses from "../Components/Expenses/expenses";
-const BASE_URL = "http://localhost:5000/api/v1/";
+const BASE_URL = "https://expense-tracker-management-system-tyhe.onrender.com/api/v1/";
 
 const GlobalContext = React.createContext()
 
